@@ -1,3 +1,14 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+body {
+    
+    width: 100%;
+    margin: 0;
+    background-color: aquamarine;
+}
 nav{
     
     display: flex;
@@ -18,14 +29,22 @@ color: #000000;
     
 }
 
-#section1 {
+body{
     
-    background-color: aqua;
+    
+}
+
+#parent1 {
+    
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
     display: grid;
-    grid-template-columns: 20vw 20vw;
-    grid-template-rows: 20vw 20vw 20vh;
+    grid-template-columns: 1fr 1fr ;
     grid-gap: 60px;
-    height: 100%;
+    margin-bottom: 0px;
+  
+    
     
 }
 
@@ -35,22 +54,64 @@ color: #000000;
     background-color: beige;
     grid-column: 1/2;
     grid-row: 1/2;
+    margin-bottom: 0px;
+}
+
+#headdog {
+    
+    width: 90%;
+    min-width: 200px;
+    margin-bottom: 0px;
+    
+    
 }
 
 #card2 {
     
     
-    background-color: blue;
+    background-color: white;
     grid-column: 2/3;
     grid-row: 1/2;
+    
+}
+
+
+h1{
+    
+    font-family: Sen-Bold;
+font-size: 50px;
+color: #000000;
+    
+}
+
+#check {
+    
+    font-family: Montserrat-Regular;
+font-size: 23px;
+color: #000000;
+    
+}
+
+#topbutton {
+    
+    
+    color: black;
+    
+}
+
+#parent2 {
+    
+    display: grid;
+    background-color: beige;
+    grid-template-columns: 1fr;
+    margin-top: 0px;
 }
 
 #card3 {
     
-    background-color: yellow;
+    background-color: burlywood;
     grid-column: 1/4;
-    height: 30vh;
-    width: 100%;
+    
 }
 
 
