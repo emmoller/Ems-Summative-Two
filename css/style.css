@@ -3,8 +3,8 @@
     box-sizing: border-box;
 }
 
-img{
-    
+img {
+
     display: block;
 }
 
@@ -12,20 +12,23 @@ body {
 
     width: 100%;
     margin: 0;
-    background-color: aquamarine;
+    background-color: white;
 }
 
 nav {
 
     display: flex;
     justify-content: space-between;
+    background-color: white;
+
 
 }
+
+
 
 ul {
 
     display: flex;
-
     list-style: none;
     padding: 0 20px;
 
@@ -37,7 +40,6 @@ ul {
     font-size: 20px;
     color: #000000;
     list-style: none;
-
     padding: 0 20px;
 
 
@@ -47,9 +49,30 @@ ul {
 #logo {
 
     font-family: Sen-Bold;
-    font-size: 20px;
+    font-size: 30px;
     color: #000000;
+    list-style: none;
+    padding-left: 60px;
+    padding-top: 7px;
 
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+
+
+}
+
+a:active {
+    text-decoration: underline;
 }
 
 
@@ -57,13 +80,22 @@ ul {
 #parent1 {
 
     background-color: white;
-    width: 100%;
+    /* THINK ABOUT USING MAX-WIDTH OR MIN-WIDTH 
+    ON LARGE SCREENS MAX-WIDTH IS USEFUL
+    MIN-WIDTH IS USEFUL FOR KEEPING THE CONTENT SQUISHING ON SMALL SCREENS
+    
+    */
+    max-width: 1100px;
+    min-width: 400px;
+
+
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+
     grid-gap: 60px;
     margin-bottom: 0px;
-
 
 }
 
@@ -97,7 +129,8 @@ ul {
     margin-bottom: 0px;
     background-color: white;
     grid-column: 2/3;
-    margin-top: 60px;
+    margin-top: 200px;
+
 
 }
 
@@ -107,6 +140,7 @@ h1 {
     font-family: Sen-Bold;
     font-size: 62px;
     color: #000000;
+    padding-right: 60px;
 
 }
 
@@ -125,7 +159,7 @@ h1 {
 
 
 
-#section10 {
+#parent2 {
 
     margin: 0px;
     padding: 0px;
@@ -162,6 +196,13 @@ h2 {
     margin-bottom: 0px;
 }
 
+#aboutbutton {
+
+    text-align: center;
+    margin: 0 auto;
+    font-size: 250%;
+}
+
 
 
 
@@ -180,8 +221,9 @@ h2 {
     background-color: #ECECE4;
     grid-column: 1/2;
     margin-bottom: 0px;
-
     padding-top: 120px;
+    padding-left: 60px;
+    padding-right: 60px;
 
 
 }
@@ -201,10 +243,16 @@ h2 {
     color: #000000;
 }
 
+#vendbutton {
+
+    text-align: center;
+    font-size: 250%;
+}
+
 
 #card5 {
 
-    background-color: yellow;
+    background-color: white;
     grid-column: 2/3;
     background-color: #ECECE4;
 
@@ -213,13 +261,17 @@ h2 {
 
 #dash {
 
-    width: 90%;
-    min-width: 200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
 }
 
 #section3 {
 
-    background-color: blue;
+    background-color: white;
     margin-top: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -233,11 +285,27 @@ h2 {
 
 }
 
+#cardnumber {
+
+    padding-top: 120px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#faqbutton {
+
+    font-size: 250%;
+
+}
+
 #up {
 
-    width: 80%;
-    padding-left: 60px;
-    padding-top: 60px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 20px;
 }
 
 #faqtitle {
@@ -254,9 +322,394 @@ h2 {
     color: #000000;
 }
 
+#section4 {
 
-@media screen and (max-width: 400px) {
+    background-color: orange;
+    margin-top: 0px;
+
+    height: 100%;
+    width: 100%;
+
+    margin-bottom: 0px;
+}
+
+#card7 {
+
+    height: 100vh;
+    background-image: url("/images/main.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+
+#gettitle {
+
+    padding-top: 0px;
+}
+
+#section5 {
+
+
+    background-color: white;
+}
+
+#card8 {
+
+    margin-top: 0px;
+    padding: 10px 60px;
+
+}
+
+#ourstorytitle {
+
+    font-family: Sen-Bold;
+    font-size: 62px;
+    color: #000000;
+    text-align: center;
+}
+
+#storypara {
+
+    font-family: Montserrat-Regular;
+    font-size: 23px;
+    color: #000000;
+    text-align: center;
+}
+
+#logoimage {
+
+    margin: 0 auto;
+
+}
+
+#section6 {
+    background-color: white;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    margin-bottom: 0px;
+
+}
+
+#aboutdog {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+#exptitle {
+
+    font-family: Sen-Bold;
+    font-size: 62px;
+    color: #000000;
+    padding-left: 60px;
+    padding-top: 200px;
+}
+
+#section7 {
+
+    background-color: #E3EBEE;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    margin-bottom: 0px;
+}
+
+.red {
+
+    font-family: Sen-Bold;
+    font-size: 62px;
+    color: #EE2526;
+    padding-left: 60px;
+}
+
+.yellow {
+
+    font-family: Sen-Bold;
+    font-size: 62px;
+    color: #FFDB00;
+    padding-left: 120px;
+}
+
+
+
+#long {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+
+}
+
+#footer {
+
+    background-color: white;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 60px;
+    margin-bottom: 0px;
+
+}
+
+
+
+
+#webaddress {
+
+    font-family: Sen-Bold;
+    font-size: 20px;
+    color: #817F7F;
+    padding-left: 60px;
+}
+
+.llist {
+
+    font-family: Sen-Bold;
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+
+}
+
+#cardb {
+
+    padding-top: 30px;
+}
+
+#copyright {
+
+    font-family: Sen-Bold;
+    font-size: 20px;
+    color: #817F7F;
+    padding-top: 120px;
+
+}
+
+#cardc {
+
+    padding-top: 34px;
+}
+
+.rlist {
+
+    font-family: Sen-Bold;
+    font-size: 15px;
+    color: #000000;
+    text-align: left;
+
+}
+
+#insta {
+
+    font-size: 150%;
+    padding: 20px;
+    padding-top: 160px;
+}
+
+#twitter {
+
+    font-size: 150%;
+    padding: 20px;
+    padding-top: 160px;
+
+}
+
+#facebook {
+
+    font-size: 150%;
+    padding: 20px;
+    padding-top: 160px;
+}
+
+#section8 {
+
+    background-color: orange;
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0px;
+   
+
+}
+
+#card13 {
+
+    height: 100vh;
+    background-image: url("/images/buytickets.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+
+
+}
+
+#card15 {
+
+    background-color: #E4EAED;
+}
+
+
+#section9 {
+
+    background-color: burlywood;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 60px;
+    margin-bottom: 0px;
+}
+
+#student {
+
+    font-family: Sen-Bold;
+    font-size: 45px;
+    color: #000000;
+    text-align: center;
+}
+
+#glasses {
+
+    width: 70%;
+    margin: 0 auto;
+}
+
+#section10 {
     
-    body {background-color: blue;}
-    #parent1 {display: block;}
+   background-color: burlywood;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    margin-bottom: 0px;
+}
+
+.number {
+    
+    font-family: Sen-Bold;
+font-size: 50px;
+color: #000000;
+    padding-left: 60px;
+}
+
+form {
+    
+    padding-left: 60px;
+}
+
+#fname {
+    
+    font-family: Montserrat-Regular;
+font-size: 30px;
+color: #000000;
+}
+
+#lname {
+    
+    font-family: Montserrat-Regular;
+font-size: 30px;
+color: #000000;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 845px) {
+
+    body {
+        background-color: blue;
+    }
+
+    #parent1 {
+        display: block;
+    }
+
+    #parent2 {
+        display: block;
+    }
+
+    #section2 {
+
+        display: block;
+    }
+
+    #section3 {
+
+        display: block;
+    }
+
+    #section6 {
+
+        display: block;
+    }
+
+    #section7 {
+
+        display: block;
+    }
+
+    #card7 {
+
+        height: 50vh;
+    }
+
+}
+
+/* MEDIUM SIZED SCREEN between 800 and 401px*/
+@media (min-width: 401px) and (max-width: 800px) {
+    body {
+        background: green;
+    }
+
+    #parent1 {
+        grid-gap: 0;
+    }
+
+    /* CHANGE HOW THE CARDS USE THE GRID */
+    /* ie. TAKE UP ALL HORIZONTAL SPACE BUT NEW ROWS. (ROWS WILL REPEAT AUTOMATICALLY) */
+    #card1 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    #card2 {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    #card7 {
+
+        height: 50vh;
+    }
+
+
+
+}
+
+
+
+
+/* SMALL SIZED SCREEN  LESS THAN 400px */
+
+@media (max-width: 400px) {
+    body {
+        background: red;
+    }
+
+    /*SMALL STUFF HERE */
+
+
+    #card7 {
+
+        height: 40vh;
+    }
 }
