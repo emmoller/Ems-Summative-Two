@@ -80,11 +80,7 @@ a:active {
 #parent1 {
 
     background-color: white;
-    /* THINK ABOUT USING MAX-WIDTH OR MIN-WIDTH 
-    ON LARGE SCREENS MAX-WIDTH IS USEFUL
-    MIN-WIDTH IS USEFUL FOR KEEPING THE CONTENT SQUISHING ON SMALL SCREENS
-    
-    */
+  
     max-width: 1100px;
     min-width: 400px;
 
@@ -130,6 +126,7 @@ a:active {
     background-color: white;
     grid-column: 2/3;
     margin-top: 200px;
+    padding-left: 60px;
 
 
 }
@@ -154,7 +151,8 @@ h1 {
 
 #topbutton {
 
-    font-size: 250%
+    font-size: 250%;
+    color: #EE2526;
 }
 
 
@@ -198,9 +196,13 @@ h2 {
 
 #aboutbutton {
 
-    text-align: center;
+
+    display: block;
+    width: 40px;
     margin: 0 auto;
     font-size: 250%;
+    color: #EE2526;
+
 }
 
 
@@ -247,6 +249,7 @@ h2 {
 
     text-align: center;
     font-size: 250%;
+    color: #EE2526;
 }
 
 
@@ -295,6 +298,7 @@ h2 {
 #faqbutton {
 
     font-size: 250%;
+    color: #EE2526;
 
 }
 
@@ -335,11 +339,14 @@ h2 {
 
 #card7 {
 
+
     height: 100vh;
-    background-image: url("/images/main.jpg");
-    background-size: 100%;
+    background-image: url("../images/main.jpg");
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     padding-top: 60px;
+
 }
 
 #gettitle {
@@ -409,6 +416,7 @@ h2 {
     color: #000000;
     padding-left: 60px;
     padding-top: 200px;
+    max-width: 630px;
 }
 
 #section7 {
@@ -538,15 +546,17 @@ h2 {
     height: 100%;
     width: 100%;
     margin-bottom: 0px;
-   
+
 
 }
 
 #card13 {
 
-    height: 100vh;
-    background-image: url("/images/buytickets.png");
-    background-size: 100%;
+
+    background-image: url("../images/buytickets.png");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     padding-top: 60px;
 
@@ -555,13 +565,18 @@ h2 {
 
 #card15 {
 
-    background-color: #E4EAED;
+    background-color: white;
+}
+
+#card14 {
+    
+    background-color: white;
 }
 
 
 #section9 {
 
-    background-color: burlywood;
+    background-color: white;
     margin-top: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -577,15 +592,66 @@ h2 {
     text-align: center;
 }
 
+
 #glasses {
 
     width: 70%;
     margin: 0 auto;
 }
 
-#section10 {
+#indiv {
+
+    width: 70%;
+    padding-bottom: 0px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+
+#indivbutton {
     
-   background-color: burlywood;
+     display: block;
+    width: 40px;
+    margin: 0 auto;
+    font-size: 250%;
+    padding-top: 10px;
+    color: #EE2526;
+    
+}
+
+#studentbutton {
+    
+     display: block;
+    width: 40px;
+    margin: 0 auto;
+    font-size: 250%;
+    padding-top: 10px;
+    color: #EE2526;
+}
+
+#familybutton {
+    
+    display: block;
+    width: 40px;
+    margin: 0 auto;
+    font-size: 250%;
+    color: #EE2526;
+}
+
+#group {
+    
+     width: 105%;
+    margin: 0 auto;
+    padding-right: 60px;
+}
+
+#card16 {
+    
+    background-color: white;
+}
+
+#section10 {
+
+    background-color: white;
     margin-top: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -594,32 +660,183 @@ h2 {
 }
 
 .number {
-    
+
     font-family: Sen-Bold;
-font-size: 50px;
-color: #000000;
+    font-size: 50px;
+    color: #000000;
     padding-left: 60px;
+    margin-bottom: 15px;
 }
 
 form {
+
+    padding-left: 60px;
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    color: #000000;
+
+
+
+}
+
+#fname {
+
+    font-family: Montserrat-Regular;
+    font-size: 15px;
+    color: #000000;
+
+
+}
+
+#lname {
+
+    font-family: Montserrat-Regular;
+    font-size: 15px;
+    color: #000000;
+
+}
+
+#cardnumb {
+
+    width: 50%;
+}
+
+input[type=text] {
+
+    border-radius: 4px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+#card18 {
+
+    background-color: #ECECE4;
+    border-radius: 4px;
+    margin-right: 60px;
+}
+
+#carttitle {
+
+    font-family: Sen-Bold;
+    font-size: 45px;
+    color: #000000;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+h6 {
+
+    font-family: Sen-Bold;
+    font-size: 15px;
+    color: #000000;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+
+}
+
+#section11 {
+
+    background-color: white;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    margin-bottom: 0px;
+
+}
+
+
+
+#brownie {
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+#justwait {
+
+    font-family: Sen-Bold;
+    font-size: 62px;
+    color: #000000;
+    padding-left: 20px;
+    max-width: 650px;
+    padding-top: 300px;
+}
+
+
+#section12{
+    
+      background-color: #E4EBEE;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    margin-bottom: 0px;
+}
+
+#sched {
+    
+    font-family: Sen-Bold;
+    font-size: 62px;
+    color: #000000;
+    padding-left: 60px;
+    max-width: 650px;
+    padding-top: 300px;
+}
+
+#downloadbutton {
+    
+    font-size: 250%;
+    padding-left: 60px;
+    color: #EE2526;
+    
+}
+
+#puppi {
+    
+    width: 100%;
+    margin: 0 auto;
+}
+
+#section13 {
+    
+     background-color: white;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 60px;
+    margin-bottom: 0px;
+}
+
+.stitle {
+    
+    font-family: Sen-Bold;
+font-size: 45px;
+color: #000000;
+text-align: center;
+}
+
+.playimg {
+    
+    width: 100%;
+    margin: 0 auto;
+}
+
+#card23 {
     
     padding-left: 60px;
 }
 
-#fname {
+#card25 {
     
-    font-family: Montserrat-Regular;
-font-size: 30px;
-color: #000000;
+    padding-right: 60px;
 }
-
-#lname {
-    
-    font-family: Montserrat-Regular;
-font-size: 30px;
-color: #000000;
-}
-
 
 /* MEDIA QUERIES */
 
@@ -656,10 +873,65 @@ color: #000000;
 
         display: block;
     }
+    
+    #section8 {
+        
+        display: block;
+    }
 
+    #section9 {
+        
+        display: block;
+    }
+    
+    
     #card7 {
 
         height: 50vh;
+    }
+
+    #section 10 {
+
+        display: block;
+    }
+    
+    section11 {
+        
+        display: block;
+    }
+    section12{
+        
+        display: block;
+    }
+    
+    section13 {
+        
+        display: block;
+    }
+    
+    section14 {
+        
+        display: block;
+    }
+    
+    section15 {
+        
+        display: block;
+    }
+    
+    section16 {
+        
+        display: block;
+    }
+    
+    section17{
+        
+        display: block;
+    }
+    
+    footer {
+        
+        display: block;
     }
 
 }
@@ -667,7 +939,7 @@ color: #000000;
 /* MEDIUM SIZED SCREEN between 800 and 401px*/
 @media (min-width: 401px) and (max-width: 800px) {
     body {
-        background: green;
+        background: white;
     }
 
     #parent1 {
@@ -702,10 +974,10 @@ color: #000000;
 
 @media (max-width: 400px) {
     body {
-        background: red;
+        background: white;
     }
 
-    /*SMALL STUFF HERE */
+    
 
 
     #card7 {
